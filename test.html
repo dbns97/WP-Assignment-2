@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- meta http-equiv="X-Frame-Options" content="deny" -->
+    <title>My First Webpage</title>
+
+    <!-- We will cover style later. Skip down to the body tag -->
+    <style>
+      html,
+      body {
+        margin: 0px;
+        padding: 0px;
+        color: black;
+      }
+
+      header {
+        font-size: 300%;
+        font-weight: bold;
+        background: #0CC;
+        color: white;
+        padding: 10px;
+        text-shadow: 1px 1px 2px #033;
+      }
+
+      header * {
+        vertical-align: middle;
+        margin-right: 40px;
+      }
+      
+      header img {
+        filter: drop-shadow(-1px -1px 3px white);
+        -webkit-filter: drop-shadow(-1px -1px 3px white);
+      }
+
+      main {
+        background-color: rgb(255,250,250);
+        padding: 10px 10px 50px 30px;
+      }
+
+      nav,
+      footer {
+        background-color: rgb(187,255,255);
+        padding: 10px;
+      }
+
+      footer * {
+        vertical-align: middle;
+      }
+
+      #aboutme {
+        border-collapse: collapse;
+        border: 2px solid #333;
+        width:100%;
+      }
+
+      #aboutme th {
+        background-color:hsl(180,30%,95%);
+        text-align:left;
+        width:200px;
+      }
+      
+      #aboutme th,
+      #aboutme td {
+        border: 2px solid #333;
+        padding: 10px 15px;
+      }
+
+    </style>
+    <script>
+      function stripeTick() {
+        var now = new Date();
+        var degrees = Math.ceil(now.getMinutes()*3); // stripes rotate 180º each hour       
+        console.log(degrees);
+        document.getElementsByTagName('header')[0].style.background='repeating-linear-gradient('+degrees+'deg, #0CC 0px, #0CC 20px, #6DD 20px, #6DD 30px)';    
+      }
+      setTimeout(stripeTick,0); // run once on load
+      setInterval(stripeTick,60000); // update every minute after that
+    </script>
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Image sourced from www.rmit.edu.au for educational purposes only -->
+      <div><img src='http://mams.rmit.edu.au/pydyrxvec44m.png' alt='rmit logo'/>Drew Nuttall-Smith
+      </div>
+    </header>
+
+    <nav>
+      <a href="../">Home</a> | 
+      <a href="a3">Assignment 3</a> | 
+      <a href="/~e54061/wp/lectures" target="_blank">Lectures 1 - 6</a> |
+      <a href="/~e54061/secure" target="_blank">Secure Resources Area</a> |
+      <a href='https://drive.google.com/drive/folders/0B-upi05mqSg9RFJ6dUhDZXBILTQ' target="_blank">WP Public</a>
+    </nav>
+
+    <main>
+		<h2>Assignment 2</h2>
+		<!-- Placeholder image found at http://lorempixel.com -->
+		<img src="http://lorempixel.com/400/200/"/>
+		<!-- Placeholder text found at lorentext.com -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labor           is nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi           dent, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	   	Neque iudicium libro apte antiopam autem hortensio ne et reprehensiones de paranda delectet stoicis esset gratissimo ad tum investigandi vero multos verbis ne isdem se id cum mandaremus hoc, a		rare eisque eiusmod leviora dolore ea amet quo ab oderit sed nulli plane philosophiae nec operam scriptorem cur opinor suum ab nostris lorem est contemnentes. Posse si ut rudem cum? Non sunt n		on graeca, multos facere et dolor in in munere, est ne sermone quis sunt eo multo avocent quibusdam scriptum eo reprehendunt.</p>
+    </main>
+
+    <footer>
+      &copy; Drew Nuttall-Smith
+      <script>
+        document.write(new Date().getFullYear());
+      </script>.
+    </footer>
+
+  </body>
+
+</html>
