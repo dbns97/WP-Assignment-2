@@ -4,8 +4,8 @@
 <div id="pleaseLikeMeContainer">
 	<div class="center-block">
 		<!-- Image found at: http://renewcanceltv.com/please-like-renewed-season-4-pivot/ -->
-		<div class="img-wrapper"><img id="pleaseLikeMeImg"src="images/pleaselikeme.jpg" alt="Josh Thomas, Please Like Me"/></div>
-		<div class="text-wrapper"><h1>Seasons 1-3</h1><p>Visit <a href="shop.html">Shop</a> to purchase</p><h1>Season 4</h1><p>Screening on the ABC later this year!</p></div>
+		<div id="pleaseLikeMe-img-wrapper"><img id="pleaseLikeMeImg" src="images/pleaselikeme.jpg" alt="Josh Thomas, Please Like Me"/></div>
+		<div id="pleaseLikeMe-text-wrapper"><h1>Seasons 1-3</h1><p>Visit <a href="shop.html">Shop</a> to purchase</p><h1>Season 4</h1><p>Screening on the ABC later this year!</p></div>
 	</div>
 </div>
 <div id="aboutContainer">

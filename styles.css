@@ -133,18 +133,6 @@ textarea {
 	top: 50%;
 }
 
-.img-wrapper {
-	float: left;
-	overflow: hidden;
-	width: 70%;
-}
-
-.text-wrapper {
-	display: table;
-	width: 30%;
-	height: 100%;
-}
-
 .center-text-wrapper {
 	text-align: center;
 }
@@ -218,8 +206,20 @@ textarea {
 	color: #FDE016;
 }
 
+#pleaseLikeMe-img-wrapper {
+	float: left;
+	overflow: hidden;
+	width: 70%;
+}
+
 #pleaseLikeMeImg {
 	bottom: 0;
+}
+
+#pleaseLikeMe-text-wrapper {
+	display: table;
+	width: 30%;
+	height: 100%;
 }
 
 #aboutContainer {
@@ -231,6 +231,40 @@ textarea {
 #signupContainer {
 	background-color: #BDBDBD;
 	background: linear-gradient(to right bottom, #E0E0E0, #BDBDBD);
+}
+
+#season1Container {
+	width: 100%;
+	background-color: #F6A199;
+}
+
+#season2Container {
+	width: 100%;
+	background-color: #C8E4E5;
+}
+
+#season3Container {
+	width: 100%;
+	background-color: #FFF79A;
+}
+
+.season-block {
+	width: 70%;
+}
+
+.seasonCover-img-wrapper {
+	float: left;
+	width: 40%;
+	max-width: 340px;
+}
+
+.seasonCover-text-wrapper {
+	display: table;
+	position: absolute;
+	width: 60%;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
 }
 
 #footer-social {
