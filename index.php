@@ -1,14 +1,14 @@
 <?php $title = 'Josh Thomas'; include("header.php");?>
 
 <main role="main">
-<div id="pleaseLikeMeContainer">
+<div id="pleaseLikeMeContainer" class="row">
 	<div class="center-block">
 		<!-- Image found at: http://renewcanceltv.com/please-like-renewed-season-4-pivot/ -->
 		<div id="pleaseLikeMe-img-wrapper"><img id="pleaseLikeMeImg" src="images/pleaselikeme.jpg" alt="Josh Thomas, Please Like Me"/></div>
-		<div id="pleaseLikeMe-text-wrapper"><h1>Seasons 1-3</h1><p>Visit <a href="shop.html">Shop</a> to purchase</p><h1>Season 4</h1><p>Screening on the ABC later this year!</p></div>
+		<div id="pleaseLikeMe-text-wrapper"><h1>Seasons 1-3</h1><p>Visit <a href="shop.php">Shop</a> to purchase</p><h1>Season 4</h1><p>Screening on the ABC later this year!</p></div>
 	</div>
 </div>
-<div id="aboutContainer">
+<div id="aboutContainer" class="row">
 	<div class="center-block">
 		<div class="center-text-wrapper">
 			<h1>About</h1>
@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </div>
-<div id="signupContainer">
+<div id="signupContainer" class="row">
 	<div class="center-block">
 		<div class="center-text-wrapper"><h3 class="center-text">Sign up to Josh's mailing list:</h3></div>
 		<form action="http://joshthomas.us6.list-manage2.com/subscribe/post?u=80a5075c83&id=f98d3181bc" method="post" target="_blank">

@@ -13,7 +13,7 @@
 					<h1 id="title" class="center"><a href="index.php">Josh Thomas</a></h1>
 					<hr>
 					<nav class="center">
-						<ul>
+						<ul id="main-nav-list">
 							<li class="horizontal-li"><a href="index.php">Home</a></li>
 							<li class="horizontal-li"><a href="contact.php">Contact</a></li>
 							<li class="horizontal-li"><a href="shop.php">Shop</a></li>
