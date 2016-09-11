@@ -22,7 +22,7 @@
 </div>
 <div id="signupContainer" class="row">
 	<div class="center-block">
-		<div class="center-text-wrapper"><h3 class="center-text">Sign up to Josh's mailing list:</h3></div>
+		<div class="center-text-wrapper"><h3>Sign up to Josh's mailing list:</h3></div>
 		<form action="http://joshthomas.us6.list-manage2.com/subscribe/post?u=80a5075c83&id=f98d3181bc" method="post" target="_blank">
 			<div class="form-inputs-container">
 				<div class="form-input-wrapper">

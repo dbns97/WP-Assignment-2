@@ -10,7 +10,7 @@
 				<div class="contact-form-input-wrapper"><label>Last Name *</label><input class="form-input" type="text" name="lastName" placeholder="Bloggs" pattern="[A-Za-z -]{1,20}" required></div>
 				<div class="contact-form-input-wrapper"><label>Email Address *</label><input class="form-input" type="email" name="email" placeholder="jbloggs@gmail.com" required></div>
 				<div class="contact-form-input-wrapper"><label>Phone Number *</label><input class="form-input" type="text" name="phone" placeholder="+61 123 456 789 (please use this format)" pattern="\+[0-9]{2}( [0-9]{3}){3}" required></div>
-				<div class="contact-form-input-wrapper"><label>Event Date *</label><input id="date" class="form-input" type="date" name="eventDate" min="2016-09-06" onload="setMinDate()" required></div>
+				<div class="contact-form-input-wrapper"><label>Event Date *</label><input id="date" class="form-input" type="date" name="eventDate" required></div>
 				<div class="contact-form-input-wrapper"><label>Event Flexibilty *</label><div id="flexibilityWrapper"><input id="eventFlexibility" class="form-input" type="range" min="1" max="3" name="eventFlexibility" oninput="displayEventFlexibility(this.value)" required><p name="eventFlexibilityOutput" class="center" id="eventFlexibilityOutput">Somewhat Flexible</p></div></div>
 				<div class="contact-form-input-wrapper"><label>Event Time</label><input class="form-input" type="time" name="eventTime"></div>
 				<div class="contact-form-input-wrapper"><label>Event Location</label><input class="form-input" type="text" name="eventLocation" placeholder="Prahran, Melbourne" pattern="[a-zA-Z0-9 ,.-()/'\r\n]"></div>
@@ -31,5 +31,5 @@
 
 </main>
 
-<?php include("footer.php");?>
 <script src="contact.js"></script>
+<?php include("footer.php");?>
